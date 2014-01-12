@@ -2,8 +2,8 @@ from BeautifulSoup import BeautifulSoup as BS
 soup = BS(open('garmin.txt'))
 
 manufacturerList = []
-megaManufacturerDic = {}
 
+megaManufacturerDic = {}
 manufacturerName = str(soup.h3.text)
 if not manufacturerName in manufacturerList:
     manufacturerList.append(manufacturerName)
