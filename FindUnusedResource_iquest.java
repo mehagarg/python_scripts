@@ -1,5 +1,3 @@
-package com.iquestint;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileFilter;
@@ -14,7 +12,6 @@ import java.util.Stack;
 /**
  * Finds android resources which are not used. It needs to be run before release.
  * 
- * @author sebastian.presecan
  * 
  */
 public class FindUnusedResource {
